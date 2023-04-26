@@ -66,22 +66,19 @@ const HeroContainer = (props) => {
 
   // Rendering
   return (
-    <div className='hero-container'>
+    <div className="hero-container">
       <HeroThumbnails
         handleEnter={handleEnter}
         thumbnailImages={props.thumbnailImages}
       />
-      <div className='hero-image-container'>
+      <div className="hero-image-container">
         {highlyRated}
         <img
-          id='hero-img'
+          id="hero-img"
           src={props.focusImage}
-          alt=''
+          alt=""
         />
-        <Carousel
-          prevImage={prevImage}
-          nextImage={nextImage}
-        />
+        <Carousel prevImage={prevImage} nextImage={nextImage} />
       </div>
     </div>
   );
