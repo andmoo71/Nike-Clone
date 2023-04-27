@@ -77,6 +77,7 @@ const HeroContainer = (props) => {
           id="hero-img"
           src={props.focusImage}
           alt=""
+          priority='high'
         />
         <Carousel prevImage={prevImage} nextImage={nextImage} />
       </div>
