@@ -10,7 +10,6 @@ const HeroThumbnails = (props) => {
           key={index}
           alt=''
           onMouseEnter={() => props.handleEnter(image)}
-          fetchpriority='high'
         />
       ))}
     </div>
