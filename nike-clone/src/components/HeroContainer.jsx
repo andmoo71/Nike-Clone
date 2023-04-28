@@ -77,6 +77,7 @@ const HeroContainer = (props) => {
           id='hero-img'
           src={props.focusImage}
           alt=''
+          fetchpriority='high'
         />
         <Carousel
           prevImage={prevImage}
